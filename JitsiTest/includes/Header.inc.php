@@ -28,18 +28,3 @@
         </div>
     </div>
 </header>
-<body>
-    <section id="welcome-banner"></section>
-    <section id="makecall">
-        <form id="callform" action="getstarted.php" method="post">
-            <div>
-                <input type="text" id="roomName" value="THISISATEST" name="callName">
-                <input type="submit" id="startCall" value="Start Call">
-            </div>
-        </form>
-    </section>
-</body>
-<footer>
-    
-</footer>
-</html>

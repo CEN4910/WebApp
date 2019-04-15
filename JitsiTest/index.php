@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jitsi Test </title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script> 
     <script type="text/javascript" src="libs/jquery-2.1.1.min.js"></script>
@@ -29,11 +30,14 @@
     </div>
 </header>
 <body>
+    <section id="welcome-banner">
+        <p>Welcome to Knights Live!</p>
+    </section>
     <section id="makecall">
         <form id="callform" action="getstarted.php" method="post">
             <div>
-                <input type="text" id="roomName" value="THISISATEST" name="callName">
-                <input type="submit" id="startCall" value="Start Call">
+               <label>Enter room name:</label> <input type="text" id="roomName" value="" name="callName">
+                <input type="submit" id="startCall" value="submit">
             </div>
         </form>
     </section>
